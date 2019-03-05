@@ -1,0 +1,405 @@
+    1  ls -l
+    2  clear
+    3  ls -f
+    4  clear
+    5  find . -name .txt
+    6  find . -name CIT173_Lab4/my-dev-nodes.txt
+    7  find ... -print 0 | grep -FzZ 'CIT173_Lab4/my-dev-nodes.txt'
+    8  clear
+    9  man head
+   10  clear
+   11  ls -l
+   12  ls -l > ~/CIT173_Lab4/my-dev-nodes.txt
+   13  cat ~/CIT173_Lab4/my-dev-nodes.txt > /dev/full
+   14  head -c 1024 dev/random > ~/CIT173_Lab4/my-random-data.txt
+   15  head -c 1024 dev/random
+   16  head -c 1024 /dev/random
+   17  clear
+   18  head -c 1024 /dev/random > ~/CIT173_Lab4/my-random-data.txt
+   19  lsmod
+   20  lsmod > ~/CIT173_Lab4/my-modules-1.txt
+   21  modinfo nfs > ~/CIT173_Lab4/my-nfs-info.txt
+   22  insmod nfs > ~/CIT173_Lab4/my-modules-2.txt
+   23  sudo
+   24  sudo -u
+   25  sudo --u
+   26  sudo -i
+   27  lsmod
+   28  insmod nfs
+   29  man fdisk
+   30  ls -l
+   31  ls
+   32  cd CIT173_Lab4
+   33  ls -l
+   34  clear
+   35  ls -l
+   36  modprobe nfs > my-modules-2.txt
+   37  cd -
+   38  modprobe nfs > ~/CIT173_Lab4/my-modules-2.txt
+   39  modinfo nfs
+   40  modprobe nfs
+   41  sudo -i
+   42  clear
+   43  modprobe nfs
+   44  modprobe -f nfs > ~/CIT173_Lab4/my-modules-2.txt
+   45  modinfo nfs
+   46  insmod /lib/modules/4.18.16-300.fc29.x86_64//kernel/fs/nfs/nfs.ko.xz > ~/CIT173_Lab4/my-modules-2.txt
+   47  modprob nfs4
+   48  modprobe nfs4
+   49  sudo fdisk /dev/sdb
+   50  fdisk -l
+   51  sudo fdisk -l
+   52  fdisk -l > ~/CIT173_Lab4/my-new-dev-nodes.txt
+   53  sudo fdisk -l > ~/CIT173_Lab4/my-new-dev-nodes.txt
+   54  sudo mkfs.ext4 /dev/sbd1
+   55  sudo mkfs.ext4 /dev/sdb1
+   56  sudo mkfs.ext4 /dev/sdb2
+   57  sudo mount /dev/sdb1 /mnt
+   58  sudo mount /dev/sdb2 /mnt
+   59  cat /dev/sdb1 > /mnt/data
+   60  sudo cat /dev/sdb1 > /mnt/data
+   61  cd/mnt
+   62  df /mnt
+   63  sudo mount /dev/sdb1 /mnt
+   64  df /mnt
+   65  mount
+   66  mkdir /data
+   67  sudo mkdir /data
+   68  sudo mkdir /backup
+   69  sudo mount --bind /dev/sdb1/ /data/
+   70  mkdir /mnt/data
+   71  sudo mkdir /mnt/data
+   72  sudo mkdir /mnt/backup
+   73  df -h
+   74  sudo mount /dev/sdb1 /mnt/data
+   75  sudo mount /dev/sdb2 /mnt/backup
+   76  df -h
+   77  sudo unmount /mnt
+   78  sudo unmount /devsdb1 /mnt
+   79  sudo umount /mnt
+   80  sudo mount /dev/sdb1 /mnt/data
+   81  sudo umount /dev/sdb1 /mnt
+   82  df -h
+   83  mount
+   84  sudo umount --move /dev/sdb1 /mnt/data
+   85  sudo mount --move /dev/sdb1 /mnt/data
+   86  man rwmount
+   87  man rmmount
+   88  fdisk
+   89  sudo fdisk
+   90  fdisk -l
+   91  sudo fdisk -l
+   92  sudo fdisk /dev/sdb
+   93  sudo fdisk -l
+   94  sudo fdisk /dev/sdb
+   95  sudo fdisk -l
+   96  sudo mount /dev/sdb1 /mnt/data 
+   97  mkdir /mnt/data
+   98  sudo mkdir /mnt/data
+   99  sudo mount /dev/sdb1 /mnt/data 
+  100  mount
+  101  sudo mount /dev/sdb2 /mnt/backup 
+  102  sudo mkdir /mnt/backup
+  103  sudo mount /dev/sdb2 /mnt/backup 
+  104  mount
+  105  mount > ~/CIT173_Lab4/my-mounts.txt
+  106  ls
+  107  cd CIT173_Lab4
+  108  ls
+  109  -cd
+  110  sudo -cd
+  111  '
+  112  irish
+  113  exit
+  114  sudo umount /div/sdb1
+  115  sudo umount /div/sdb1 /mnt/data
+  116  sudo umount /mnt/data
+  117  sudo umount /mnt/backup
+  118  sudo dd if=/devsdb of=~/CIT173_Lab4//gpt.bin bs =512 count=34
+  119  sudo dd if=/devsdb of=~/CIT173_Lab4/gpt.bin bs=512 count=34
+  120  man dd
+  121  cd CIT173_Lab4
+  122  git init
+  123  git remote add origin https://github.com/pdougherty/CIT173_Lab4.git
+  124  git add --all
+  125  git commit -m "Lab assignment 4"
+  126  git push origin master
+  127  git commit --amend
+  128  git push origin master
+  129  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  130  git push origin master
+  131  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  132  git add --all
+  133  git commit -m "Lab assignment 4"
+  134  git push origin master
+  135  cd CIT173_Lab4
+  136  ls
+  137  git init
+  138  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  139  git add --all
+  140  git commit -m "Lab assignment 4"
+  141  git push -u origin master
+  142  rm repository https://github.com/pdougherty/CIT173_Lab4.git
+  143  cd CIT173_Lab4
+  144  git init
+  145  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  146  git add --all
+  147  git commit -m "Lab assignment 4"
+  148  ls
+  149  cd CIT173_Lab4
+  150  ls
+  151  git init
+  152  rm git
+  153  rm .git
+  154  rm ./git
+  155  sudo apt-get --purge remove .git
+  156  sudo apt get --purge remove .git
+  157  exit
+  158  dpkg --list
+  159  clear
+  160  yum remove git
+  161  sudo root
+  162  sudo -i
+  163  cd CIT173_Lab4
+  164  git init
+  165  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  166  rm -rf .git
+  167  clear
+  168  git init
+  169  git remote add origin https://github.com/pdougherty1013/CIT173_Lab4.git
+  170  git add --all
+  171  git commit -m "Lab assignment 4"
+  172  git push origin master
+  173  -cd CIT173_Lab4
+  174  cd -
+  175  cat /etc/fstab
+  176  clear
+  177  sudo fdisk -l
+  178  man fstab
+  179  cat /etc/fstab
+  180  /etc/fstab file
+  181  sudo /etc/fstab file
+  182  sudo mount -a /etc/fstab /mnt/data
+  183  cat /etc/fstab
+  184  cd /mnt/data
+  185  ls
+  186  ls -l
+  187  cd -/
+  188  cd -
+  189  mount
+  190  sudo mount -a /etc/fstab /mnt/backup
+  191  mount
+  192  man /etc/fstab
+  193  man fstab
+  194  cat libmount
+  195  sudo libmount
+  196  cd libmount
+  197  libmount -l
+  198  lib/mount
+  199  man libmount
+  200  man fstab
+  201  getmntent
+  202  clear
+  203  /etc/fstab
+  204  cd /dev/sdb1
+  205  cd /dev
+  206  ls
+  207  cd -
+  208  cd /dev/
+  209  cd -
+  210  cd /dev/disk/
+  211  ls
+  212  11
+  213  cd -
+  214  clear
+  215  cat fstab
+  216  mount
+  217  clear
+  218  cat /etc/fstab
+  219  clear
+  220  cat ps
+  221  ps
+  222  cat /proc
+  223  man /proc
+  224  cd /proc
+  225  ls
+  226  cd -
+  227  lscpu
+  228  lsmod
+  229  cat  /proc/mount
+  230  mount
+  231  cat /proc/mounts
+  232  clear
+  233  cd /sys
+  234  ls
+  235  ls /fs
+  236  cat /fs
+  237  cd -
+  238  clear
+  239  ls -l /sys
+  240  ls -l /sys/power
+  241  clear
+  242  sudo -E gedit /etc/fstab
+  243  cat /etc/fstab
+  244  ls
+  245  /etc/fstab
+  246  sudo /etc/fstab
+  247  cat /etc/fstab
+  248  mk CIT173_Lab5
+  249  mkdir CIT173_Lab5
+  250  mount
+  251  mount > ~/CIT173_Lab5/my-mounts.txt
+  252  cat /etc/fstab > ~/CIT173_Lab5/my-fstab.txt
+  253  cd /mnt/data
+  254  cd -
+  255  # dd if = /dev/random of = /dev/sdb1/data_file1.dat
+  256  # dd if = /dev/random of = /dev/sdb1/data_file2.dat
+  257  # dd if = /dev/random of = /dev/sdb2/backup_file2.dat
+  258  # dd if = /dev/random of = /dev/sdb2/backup_file1.dat
+  259  # dd if = /dev/sdb2/backup_file1.dat of = ~/CIT173_Lab5
+  260  # dd if = /dev/sdb2/backup_file2.dat of = ~/CIT173_Lab5
+  261  # dd if = /dev/sdb1/data_file2.dat of = ~/CIT173_Lab5
+  262  # dd if = /dev/sdb1/data_file1.dat of = ~/CIT173_Lab5
+  263  df
+  264  cd CIT173_Lab5
+  265  df
+  266  df > my-disk-usage.txt
+  267  uname -r
+  268  uname -r > my-procfs-1.txt
+  269  # grep "" /sys/class/dmi/id/[pbs]*
+  270  # lshw -C system
+  271  # dmidecode -t system
+  272  cat # dmidecode -t system
+  273  # dmesg | grep -i DMI
+  274  cd -
+  275  ls
+  276  cd CIT173_Lab5
+  277  ls
+  278  cat /proc/cpuinfo
+  279  cat /proc/cpuinfo > my-procfs-2.txt
+  280  cat /proc/meminfo
+  281  cat /proc/meminfo > my-procfs-3.txt
+  282  man ulimit
+  283  cat /proc/$pid/limits
+  284  cat /proc/limits
+  285  man /proc
+  286  cat /proc/bash
+  287  top
+  288  ps
+  289  cat /proc/2089/limits
+  290  cat /proc/2089/limits > my-procfs-4.txt
+  291  cat /proc/cpuinfo
+  292  cat /proc/loadavg
+  293  cat /proc/loadavg > my-procfs-5.txt
+  294  cat /proc/status
+  295  pidof dbus-daemon
+  296  cat /proc/1515/status
+  297  cat /proc/1515/status > my-procfs-6.txt
+  298  cat /proc/uptime
+  299  cat /proc/uptime > my-procfs-7.txt
+  300  cat /proc/fb
+  301  cat /proc/fb > my-procfs-8.txt
+  302  ls /sys/class/leds/
+  303  ls '/sys/class/leds/input1::capslock'
+  304  ls '/sys/class/leds/input1::capslock/brightness'
+  305  cat '/sys/class/leds/input1::capslock/brightness'
+  306  echo 1 | sudo tee '/sys/class/leds/input1::capslock/brightness'
+  307  echo 0 | sudo tee '/sys/class/leds/input1::capslock/brightness'
+  308  cat echo 1 | sudo tee '/sys/class/leds/input1::capslock/brightness' > turn-on-capslock-led.txt
+  309  cat "echo 1 | sudo tee '/sys/class/leds/input1::capslock/brightness'" > turn-on-capslock-led.txt
+  310  cd -
+  311  cat "echo 1 | sudo tee '/sys/class/leds/input1::capslock/brightness'" > ~/CIT173_Lab5/turn-on-capslock-led.txt
+  312  echo "echo 1 | sudo tee '/sys/class/leds/input1::capslock/brightness'" > ~/CIT173_Lab5/turn-on-capslock-led.txt
+  313  history > ~/CIT173_Lab5/my-command-history.txt
+  314  cd ~/CIT173_Lab5
+  315  git init
+  316  git remote add origin https://github.com/pdougherty1013/CIT173_Lab5.git
+  317  git add --all
+  318  git commit -m "Lab assignment 5"
+  319  git push origin master
+  320  # dd bs=1 count=1024 if = /dev/random of = /dev/sdb1/data_file2.dat
+  321  # dd bs=1 count=1024 if = /dev/random of = /dev/sdb1/data_file1.dat
+  322  # dd bs=1 count=1024 if = /dev/random of = /dev/sdb2/backup_file1.dat
+  323  # dd bs=1 count=1024 if = /dev/random of = /dev/sdb2/backup_file2.dat
+  324  # dd if = /dev/sdb1/data_file1.dat of = ~/CIT173_Lab5
+  325  # dd if = /dev/sdb1/data_file2.dat of = ~/CIT173_Lab5
+  326  # dd if = /dev/sdb2/backup_file2.dat of = ~/CIT173_Lab5
+  327  # dd if = /dev/sdb2/backup_file1.dat of = ~/CIT173_Lab5
+  328  cd ~/CIT173_Lab5
+  329  git init
+  330  git remote add origin https://github.com/pdougherty1013/CIT173_Lab5.git
+  331  git add --all
+  332  git commit -m "Lab assignment 5"
+  333  git push origin master
+  334  history
+  335  mkdir CIT173_Lab6
+  336  sudo groupadd actors
+  337  sudo groupadd directors
+  338  sudo groupadd producers
+  339  sudo useradd -m mhamill -p luke
+  340  sudo useradd -m hford -p solo
+  341  sudo useradd -m cfisher -p princess
+  342  sudo useradd -m glucas -p ilm
+  343  sudo useradd -m gkurtz -p oz
+  344  sudo usermod -a -G actors mhamill
+  345  sudo usermod -a -G actors hford
+  346  sudo usermod -a -G actors cfisher
+  347  sudo usermod -a -G directors glucas
+  348  sudo usermod -a -G producers glucas
+  349  sudo usermod -a -G producers gkurtz
+  350  grep actors /etc/group
+  351  grep directors /etc/group
+  352  grep producers /etc/group
+  353  man cp
+  354  cp -r /etc/passwd ~/CIT173_Lab6
+  355  cp -r /etc/groups ~/CIT173_Lab6
+  356  cp -r /etc/group ~/CIT173_Lab6
+  357  history > ~/CIT173_Lab6/ex1-command-history.txt
+  358  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  359  man tar
+  360  tar xvzf master.tar.gz
+  361  sudo mkdir /var/StarWars
+  362  chmod ugo+rwx /var/StarWars
+  363  sudo chmod ugo+rwx /var/StarWars
+  364  cd /var/StarWars
+  365  mkdir finance
+  366  mkdir directing
+  367  mkdir creative
+  368  history
+  369  ls -l
+  370  cd CIT173_Lab6_Files
+  371  cd /CIT173_Lab6_Files
+  372  cd /CIT173_Lab6_Files-master
+  373  cd CIT173_Lab6_Files-master
+  374  ls
+  375  ls -l
+  376  mv star-wars-budget.txt /var/StarWars/finance
+  377  mv star-wars-journal.txt /var/StarWars/directing
+  378  mv star-wars-script.txt /var/StarWars/creative
+  379  cd -
+  380  cd /var/StarWars
+  381* 
+  382  ls -l
+  383  chown gkurtz finance
+  384  sudo chown gkurtz finance
+  385  ls -l
+  386  chown gkurtz:producers finance
+  387  sudo chown gkurtz:producers finance
+  388  ls -l
+  389  chmod g+r-w finance
+  390  sudo chmod g+r-w finance
+  391  sudo chmod 0+--- finance
+  392  ls -l
+  393  sudo chmod 0-r-x finance
+  394  sudo chmod o-r-x finance
+  395  ls -l
+  396* 
+  397  sudo chmod g-w directing
+  398  ls -l
+  399  sudo usermod -a -G actors glucas
+  400  sudo chown glucas:actors creative
+  401  sudo chmod g-w creative
+  402  sudo chmod o-r-x creative
+  403  ls -l
+  404  cd -
+  405  history > ~/CIT173_Lab6/ex2-command-history.txt

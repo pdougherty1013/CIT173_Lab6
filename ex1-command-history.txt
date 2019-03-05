@@ -1,0 +1,24 @@
+    1  history
+    2  mkdir CIT173_Lab6
+    3  sudo groupadd actors
+    4  sudo groupadd directors
+    5  sudo groupadd producers
+    6  sudo useradd -m mhamill -p luke
+    7  sudo useradd -m hford -p solo
+    8  sudo useradd -m cfisher -p princess
+    9  sudo useradd -m glucas -p ilm
+   10  sudo useradd -m gkurtz -p oz
+   11  sudo usermod -a -G actors mhamill
+   12  sudo usermod -a -G actors hford
+   13  sudo usermod -a -G actors cfisher
+   14  sudo usermod -a -G directors glucas
+   15  sudo usermod -a -G producers glucas
+   16  sudo usermod -a -G producers gkurtz
+   17  grep actors /etc/group
+   18  grep directors /etc/group
+   19  grep producers /etc/group
+   20  man cp
+   21  cp -r /etc/passwd ~/CIT173_Lab6
+   22  cp -r /etc/groups ~/CIT173_Lab6
+   23* cp -r /etc/group ~/CIT173_Lab6
+   24  history > ~/CIT173_Lab6/ex1-command-history.txt
